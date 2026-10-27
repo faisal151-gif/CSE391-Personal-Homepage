@@ -1,0 +1,347 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Personal homepage of Faisal Rahman, a Computer Science and Engineering student at BRAC University." />
+  <meta name="keywords" content="Faisal Rahman, BRAC University, CSE 391, personal homepage, web development" />
+  <meta name="author" content="Faisal Rahman" />
+  <title>Faisal Rahman | Personal Homepage</title>
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Fraunces:wght@600;700&amp;family=Inter:wght@400;500;600;700&amp;display=swap" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <style type="text/css">
+    .signature { font-family: "Fraunces", Georgia, serif; font-size: 1.3em; color: var(--accent); }
+    .motto { margin: 18px 0 0; color: var(--muted); }
+  </style>
+</head>
+
+<body>
+<div id="wrapper">
+
+  <!-- dark mode toggle -->
+  <input type="checkbox" id="theme-toggle" class="theme-checkbox" title="Toggle dark mode" />
+
+  <div id="page">
+
+    <!-- Header -->
+    <div id="header">
+      <div class="header-inner">
+        <div class="photo-frame">
+          <img src="images/profile.jpg" alt="Portrait photo of Faisal Rahman" class="profile-photo" width="220" height="220" />
+        </div>
+        <div class="header-text">
+          <p class="eyebrow">Hi, I&#8217;m</p>
+          <h1>Faisal Rahman</h1>
+          <p class="tagline">CSE student at <strong>BRAC University</strong> from Dhaka, Bangladesh. I also do <em>VFX</em> and <em>video editing</em>.</p>
+          <p class="header-actions">
+            <a href="#contact" class="btn">Get in touch</a>
+            <a href="projects.html" class="btn btn-ghost">View my projects</a>
+          </p>
+        </div>
+        <label for="theme-toggle" class="theme-label">
+          <span class="to-dark">&#9790; Dark mode</span>
+          <span class="to-light">&#9728; Light mode</span>
+        </label>
+      </div>
+    </div>
+
+    <!-- Navigation -->
+    <div id="nav">
+      <ul class="nav-list">
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#personal-info">Personal Info</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#skills">Technical Skills</a></li>
+        <li><a href="#links">Links</a></li>
+        <li><a href="#favorites">Favourites</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li class="nav-page"><a href="hobbies.html">Hobbies &amp; Experiences</a></li>
+        <li class="nav-page"><a href="projects.html">Projects</a></li>
+      </ul>
+    </div>
+
+    <!-- Main content -->
+    <div id="content">
+
+      <!-- About Me -->
+      <div class="section" id="about">
+        <h2>About Me</h2>
+        <div class="about-grid">
+          <div>
+            <p class="lead">I&#8217;m <strong>Faisal Rahman</strong>, a <em>Computer Science and Engineering</em> student. I like coding, but I probably spend just as much time in Blender and Houdini.</p>
+            <p>I study at <a href="https://www.bracu.ac.bd/">BRAC University</a> in Dhaka. This semester I&#8217;m taking <b>CSE 391: Programming for the Internet</b> and this homepage is my first assignment for it. I&#8217;ll keep adding the <span class="text-accent">other web apps from the course</span> here as I make them.</p>
+            <p>Outside of classes I do <span class="text-warm">VFX</span>, <span class="text-accent">video editing</span> and architectural visualisation. I&#8217;ve been doing freelance archviz work on Fiverr since 2021. Other than that I play <span class="text-green">guitar</span>, watch a lot of football and read Bengali story books, mostly <i>Humayun Ahmed</i>.</p>
+            <p class="signature">Thanks for visiting!</p>
+          </div>
+          <div class="figure">
+            <div class="figure-img">
+              <img src="https://picsum.photos/id/180/640/440" alt="A laptop and an open notebook on a wooden desk" width="640" height="440" />
+            </div>
+            <p class="figure-caption">Photo: Lorem Picsum</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Personal Info -->
+      <div class="section" id="personal-info">
+        <h2>Personal Info</h2>
+        <div class="info-grid">
+          <dl class="info-list">
+            <dt>Full name</dt>
+            <dd>Faisal Rahman</dd>
+            <dt>Student ID</dt>
+            <dd>21201173</dd>
+            <dt>Department</dt>
+            <dd>Computer Science and Engineering</dd>
+            <dt>University</dt>
+            <dd>BRAC University</dd>
+            <dt>Location</dt>
+            <dd>Dhaka, Bangladesh</dd>
+            <dt>Languages</dt>
+            <dd>Bangla (native), English (fluent)</dd>
+          </dl>
+          <div class="info-aside">
+            <h3>Quick facts</h3>
+            <ul>
+              <li><strong>Currently learning:</strong> JavaScript and responsive design</li>
+              <li><strong>Favourite language:</strong> <span style="font-family: Consolas, 'Courier New', monospace;">Python</span></li>
+              <li><strong>Hobbies:</strong> guitar, football and reading</li>
+              <li><strong>Goal:</strong> <em>finish one small project every month</em></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Education -->
+      <div class="section" id="education">
+        <h2>Education</h2>
+        <p>Where I&#8217;ve studied so far.</p>
+        <p class="scroll-hint">&#8596; Scroll sideways to see the full table.</p>
+        <div class="table-wrap">
+          <table class="data-table" summary="Education history: level, institution, period and highlights">
+            <caption>Education History</caption>
+            <thead>
+              <tr>
+                <th rowspan="2" scope="col">Level</th>
+                <th colspan="2" scope="colgroup">Institution Details</th>
+                <th rowspan="2" scope="col">Highlights</th>
+              </tr>
+              <tr>
+                <th scope="col">Institution</th>
+                <th scope="col">Period</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td rowspan="2" class="group-cell">B.Sc. in Computer Science &amp; Engineering</td>
+                <td rowspan="2"><a href="https://www.bracu.ac.bd/">BRAC University</a>, Dhaka</td>
+                <td>2021 &#8211; Present</td>
+                <td><p>Core courses in <strong>data structures</strong>, <strong>algorithms</strong>, databases and operating systems. I enjoy the lab classes the most.</p></td>
+              </tr>
+              <tr>
+                <td>Fall 2026<br /><span class="text-small">(current semester)</span></td>
+                <td><p>Taking <em>CSE 391: Programming for the Internet</em>. This website is the first assignment.</p></td>
+              </tr>
+              <tr>
+                <td>Higher Secondary Certificate (HSC)</td>
+                <td>Dania College</td>
+                <td>2018 &#8211; 2020</td>
+                <td><p>Science group. This is where I first tried programming.</p></td>
+              </tr>
+              <tr>
+                <td>Secondary School Certificate (SSC)</td>
+                <td>PDB Secondary High School</td>
+                <td>2018</td>
+                <td><p>Science group. Took part in the school science fair and the maths olympiad.</p></td>
+              </tr>
+              <tr class="note-row">
+                <td colspan="4"><strong>Favourite courses so far:</strong> CSE220 Data Structures, CSE221 Algorithms and CSE370 Database Systems.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- Technical Skills -->
+      <div class="section" id="skills">
+        <h2>Technical Skills</h2>
+        <div class="skills-grid">
+          <div>
+            <div class="skill">
+              <p class="skill-name">Programming <span>70%</span></p>
+              <div class="bar"><div class="bar-fill" style="width: 70%;"></div></div>
+            </div>
+            <div class="skill">
+              <p class="skill-name">Video Editing <span>80%</span></p>
+              <div class="bar"><div class="bar-fill" style="width: 80%;"></div></div>
+            </div>
+          </div>
+          <div>
+            <div class="skill">
+              <p class="skill-name">VFX <span>85%</span></p>
+              <div class="bar"><div class="bar-fill" style="width: 85%;"></div></div>
+            </div>
+            <div class="skill">
+              <p class="skill-name">Guitar &amp; Music <span>85%</span></p>
+              <div class="bar"><div class="bar-fill" style="width: 85%;"></div></div>
+            </div>
+          </div>
+        </div>
+        <h3>Tools I use</h3>
+        <ul class="tag-list">
+          <li>Git &amp; GitHub</li>
+          <li>VS Code</li>
+          <li>MySQL</li>
+          <li>Figma</li>
+          <li>Houdini</li>
+          <li>DaVinci Resolve</li>
+          <li>Nuke</li>
+          <li>Blender</li>
+          <li>Adobe Audition</li>
+        </ul>
+      </div>
+
+      <!-- Links -->
+      <div class="section" id="links">
+        <h2>Categorized Links</h2>
+        <p class="text-small">Links marked with &#8599; go to other websites.</p>
+        <div class="card-grid">
+          <div class="card card-warm">
+            <h3>Hobbies</h3>
+            <ul class="link-list">
+              <li><a href="hobbies.html#photography">My photography corner</a></li>
+              <li><a href="hobbies.html#reading">What I am reading</a></li>
+              <li><a href="hobbies.html#gaming">Gaming &amp; puzzles</a></li>
+              <li><a href="https://www.goodreads.com/">Goodreads</a></li>
+            </ul>
+          </div>
+          <div class="card card-green">
+            <h3>Sports</h3>
+            <ul class="link-list">
+              <li><a href="hobbies.html#outdoors">Football &amp; the outdoors</a></li>
+              <li><a href="https://www.uefa.com/uefachampionsleague/">UEFA Champions League</a></li>
+              <li><a href="https://www.fifa.com/">FIFA</a></li>
+              <li><a href="https://www.chess.com/">Chess.com</a></li>
+            </ul>
+          </div>
+          <div class="card">
+            <h3>Extracurricular &amp; Creative Work</h3>
+            <ul class="link-list">
+              <li><a href="hobbies.html#experiences">Experiences</a></li>
+              <li><a href="https://www.fiverr.com/">Fiverr</a></li>
+              <li><a href="https://www.blender.org/">Blender</a></li>
+              <li><a href="https://www.sidefx.com/">SideFX Houdini</a></li>
+            </ul>
+          </div>
+          <div class="card card-muted">
+            <h3>University &amp; Course</h3>
+            <ul class="link-list">
+              <li><a href="https://www.bracu.ac.bd/">BRAC University</a></li>
+              <li><a href="https://discord.gg/ru73HMdGC">CSE 391 Discord</a></li>
+              <li><a href="https://developer.mozilla.org/">MDN Web Docs</a></li>
+              <li><a href="https://validator.w3.org/">W3C Validator</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Favourites -->
+      <div class="section" id="favorites">
+        <h2>Favourites</h2>
+        <div class="favorites-grid">
+          <div>
+            <h3>Top 10 Favourite Movies</h3>
+            <ol class="movie-list">
+              <li><a href="https://en.wikipedia.org/wiki/Interstellar_(film)">Interstellar</a> <span class="year">(2014)</span></li>
+              <li>The Shawshank Redemption <span class="year">(1994)</span></li>
+              <li>The Dark Knight <span class="year">(2008)</span></li>
+              <li>Inception <span class="year">(2010)</span></li>
+              <li>Spirited Away <span class="year">(2001)</span></li>
+              <li>3 Idiots <span class="year">(2009)</span></li>
+              <li>The Social Network <span class="year">(2010)</span></li>
+              <li>The Matrix <span class="year">(1999)</span></li>
+              <li>WALL&#183;E <span class="year">(2008)</span></li>
+              <li>Coco <span class="year">(2017)</span></li>
+            </ol>
+          </div>
+          <div>
+            <div class="figure">
+              <div class="figure-img">
+                <img src="images/books.jpg" alt="Two books on a sunny windowsill: On Days Like This and Shesher Kobita" width="640" height="480" />
+              </div>
+              <p class="figure-caption">A couple of books from my shelf.</p>
+            </div>
+            <h3 style="margin-top: 20px;">Favourite Books</h3>
+            <ul class="book-list">
+              <li><em>Misir Ali</em> series by Humayun Ahmed</li>
+              <li><em>Himu</em> series by Humayun Ahmed</li>
+              <li>Stories and science fiction by Muhammed Zafar Iqbal</li>
+              <li><em>Shesher Kobita</em> by Rabindranath Tagore</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Favourite quote -->
+      <div class="section quote-section" id="quote">
+        <h2>Favourite Quote</h2>
+        <blockquote class="quote">
+          <p class="quote-poster">Nothing is<br />scarier than<br />avoiding your<br />full potential.</p>
+        </blockquote>
+        <p class="motto">My personal motto: <strong><i>Discomfort is progress, but living your life is also necessary.</i></strong></p>
+      </div>
+
+      <!-- Contact -->
+      <div class="section" id="contact">
+        <h2>Contact Me</h2>
+        <p>If you want to get in touch, fill in the form below and it will be sent to my email.</p>
+        <!-- uses formsubmit.co to send the email -->
+        <form id="contact-form" class="contact-form" action="https://formsubmit.co/myillusion1002@gmail.com" method="post">
+          <fieldset>
+            <legend>Send me a message</legend>
+            <input type="hidden" name="_subject" value="New message from my CSE 391 homepage" />
+            <input type="hidden" name="_template" value="table" />
+            <div class="form-row">
+              <div class="form-field">
+                <label for="name">Your name</label>
+                <input type="text" id="name" name="name" maxlength="80" />
+              </div>
+              <div class="form-field">
+                <label for="email">Your email</label>
+                <input type="text" id="email" name="email" maxlength="120" />
+              </div>
+            </div>
+            <div class="form-field">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="6" cols="40"></textarea>
+            </div>
+            <p id="form-status" class="form-status"></p>
+            <div>
+              <button type="submit" class="btn btn-primary">Send message</button>
+            </div>
+          </fieldset>
+        </form>
+      </div>
+
+    </div>
+
+    <!-- Footer -->
+    <div id="footer">
+      <p>&#169; 2026 <strong>Faisal Rahman</strong>. Made for <abbr title="Programming for the Internet">CSE 391</abbr> at BRAC University.</p>
+      <p class="page-meta">
+        Page location: <span id="page-location">enable JavaScript to see this</span><br />
+        Last modified: <span id="last-modified">enable JavaScript to see this</span>
+      </p>
+      <p>
+        <a href="https://validator.w3.org/check?uri=referer">Valid XHTML 1.0 Strict</a> &#183;
+        <a href="https://jigsaw.w3.org/css-validator/check/referer">Valid CSS</a> &#183;
+        <a href="#header">Back to top &#8593;</a>
+      </p>
+    </div>
+
+  </div>
+</div>
+
+<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
